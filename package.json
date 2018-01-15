@@ -1,0 +1,32 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "todolistapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error:no test\\\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gauravkhanna1058/todolistapi.git"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "tutorials"
+  ],
+  "author": "gaurav khanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gauravkhanna1058/todolistapi/issues"
+  },
+  "homepage": "https://github.com/Gauravkhanna1058/todolistapi#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.9"
+  }
+}
