@@ -41,8 +41,7 @@ var mongoose = require('mongoose'),
   
   
   exports.delete_a_task = function(req, res) {
-  
-  
+    
     Task.remove({
       _id: req.params.taskId
     }, function(err, task) {
